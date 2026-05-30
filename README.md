@@ -29,5 +29,10 @@ return = 1                # and expected return code
 skip = true               # if this flag is set to true the test is skipped
 ```
 
+Finally run the test suite with this bash command:
+```
+aurora a-test-suite
+```
+
 Aurora works by running the exe on all the files specified in the the tests.toml and checking wether their outputs match the requirements.
 If all goes right and your code works, aurora happily outputs "Congratulations all tests passed! :)"
