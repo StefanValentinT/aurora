@@ -10,7 +10,7 @@ To use it in a particular project of yours create a file aurora_config.toml in y
 This file looks like this:
 ```
 [a-test-suite]                   # name of the test suite - whitespace is not allowed
-exec = "janet run_handler.janet" # the  executable to run on every file
+exec = "some-exec" # the  executable to run on every file
 test_folder = "tests"            # the tests folder
 ```
 Also create a folder tests (or name it anything else as long as it lines up with the `test_folder` definition).
